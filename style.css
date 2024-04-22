@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+body {
+    font-family: "Teko", sans-serif;
+    font-style: normal;
+    font-size: medium;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-color: #28bcb0;
+
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo, .comprar {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.menu {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu nav{
+    padding-left: 19%;
+}
+
+.menu nav a {
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.menu nav a:hover {
+    color: white;
+}
+
+.comprar button {
+    cursor: pointer;
+    width: 70%;
+    height: 50px;
+    border-style: none;
+    background-color: #0cdbca;
+    text-decoration:dotted;
+    border-radius: 5px;
+}
+
+.comprar button:hover {
+    background-color: #11f3e0;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-containter {
+    background-color: #3dd0c4;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 2%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.titulo {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: 500px;
+}
+
+iframe {
+    width: 80%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 80%;
+
+}
+
+.botton {
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    background-color: #0e635c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.botton-div {
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.botton-div div {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.botton-div div nav ul {
+    padding-left: 0;
+}
+
+.subtitulo, .navegacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navegacao nav ul {
+    color: rgb(200, 199, 199);
+    cursor: pointer;
+}
+
+.navegacao nav ul:hover {
+    color: white;
+}
+
