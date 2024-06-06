@@ -58,17 +58,20 @@ header {
     color: white;
 }
 
-.comprar button {
+.button {
+    color: black;
     cursor: pointer;
+    padding-top: 5%;
     width: 70%;
     height: 50px;
-    border-style: none;
     background-color: #0cdbca;
     text-decoration:dotted;
+    text-align: center;
+    font-size: 25px;
     border-radius: 5px;
 }
 
-.comprar button:hover {
+.button:hover {
     background-color: #11f3e0;
     cursor: pointer;
 }
